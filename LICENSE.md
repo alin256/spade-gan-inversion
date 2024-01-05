@@ -1,3 +1,4 @@
+BSD 3-Clause License
 BSD 4-Clause License
 
 Copyright (c) 2024, NORCE Norwegian Research Centre, Kristian Fossum, Sergey Alyaev
