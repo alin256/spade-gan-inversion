@@ -149,10 +149,10 @@ MULTIREG
 PROPS    ===============================================================
 
 INCLUDE
- '../../include/example_relperm.relperm' /
+ '../../GlobalInclude/example_relperm.relperm' /
 
 INCLUDE
- '../../include/example_pvt.txt' /
+ '../../GlobalInclude/example_pvt.txt' /
 /
 
 REGIONS  ===============================================================
