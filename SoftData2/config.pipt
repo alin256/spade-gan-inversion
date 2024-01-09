@@ -1,0 +1,101 @@
+DATAASSIM
+
+DAALG
+ESMDA	ESMDA
+
+ANALYSIS
+APPROX
+
+MDA
+TOT_ASSIM_STEPS	10
+
+ENERGY
+98
+
+OBSVARSAVE
+YES
+
+RESTARTSAVE
+NO
+
+FINALRUN
+YES
+
+ANALYSISDEBUG
+pred_data	state
+
+RESTART
+#YES
+NO
+
+OBSNAME
+DAYS
+
+NE
+100
+
+IMPORTSTATICVAR
+prior.npz
+
+TRUEDATAINDEX
+data/true_data_index.csv
+
+TRUEDATA
+data/true_data.csv
+
+ASSIMINDEX
+data/assim_index.csv
+
+DATATYPE
+data/datatyp.csv
+
+STATICVAR
+M
+
+STATE
+M
+
+DATAVAR
+data/var.csv
+
+PRIOR_M
+VARIO	sph
+MEAN	0.16
+VAR	0.0001
+RANGE	1
+ANISO	1
+ANGLE	0
+GRID	4 4 1
+
+FWDSIM
+
+REPORTTYPE
+DAYS
+
+REPORTPOINT
+data/true_data_index.csv
+
+REPLACE
+YES
+
+SAVEFORECAST
+YES
+
+SIM_LIMIT
+300
+
+RERUN
+1
+
+RUNFILE
+GAN
+
+DATATYPE
+data/datatyp.csv
+
+PARALLEL
+8
+
+STARTDATE
+1/1/1967
+
