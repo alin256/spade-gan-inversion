@@ -1,6 +1,7 @@
 BSD 4-Clause License
 
 Copyright (c) 2024, Kristian Fossum, Sergey Alyaev, NORCE Norwegian Research Centre AS
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
