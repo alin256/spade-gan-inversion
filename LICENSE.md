@@ -15,8 +15,7 @@ modification, are permitted provided that the following conditions are met:
 
 3. All advertising materials mentioning features or use of this software must
    display the following acknowledgement:
-   
-     This product includes software developed by the project "DISTINGUISH: Decision support using neural networks to predict geological uncertainties when geosteering," the Research Council of Norway #344236, supported by Aker BP and Equinor.
+   This product includes software developed by the project "DISTINGUISH: Decision support using neural networks to predict geological uncertainties when geosteering," the Research Council of Norway #344236, supported by Aker BP and Equinor.
 
 5. Neither the name of the copyright holder nor the names of its
    contributors may be used to endorse or promote products derived from
