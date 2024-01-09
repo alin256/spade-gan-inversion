@@ -16,7 +16,7 @@ modification, are permitted provided that the following conditions are met:
 
 3. All advertising materials mentioning features or use of this software must
    display the following acknowledgement:
-     This product includes software developed by the DISTINGUISH project (Research Council of Norway #344236).
+     This product includes software developed by the DISTINGUISH project (Decision support using neural networks to predict geological uncertainties when geosteering, Research Council of Norway grant #344236).
 
 4. Neither the name of the copyright holder nor the names of its
    contributors may be used to endorse or promote products derived from
