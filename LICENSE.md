@@ -1,6 +1,7 @@
 BSD 4-Clause License
 
-Copyright (c) 2024, Kristian Fossum, Sergey Alyaev
+Copyright (c) 2024, Kristian Fossum, Sergey Alyaev, NORCE Norwegian Research Centre AS
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -15,9 +16,10 @@ modification, are permitted provided that the following conditions are met:
 
 3. All advertising materials mentioning features or use of this software must
    display the following acknowledgement:
-     This product includes software developed by the DISTINGUISH project.
+   
+     This product includes software developed by the project "DISTINGUISH: Decision support using neural networks to predict geological uncertainties when geosteering," the Research Council of Norway #344236, supported by Aker BP and Equinor.
 
-4. Neither the name of the copyright holder nor the names of its
+5. Neither the name of the copyright holder nor the names of its
    contributors may be used to endorse or promote products derived from
    this software without specific prior written permission.
 
