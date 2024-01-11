@@ -8,6 +8,7 @@ python3 -m pip install --upgrade pip setuptools
 cd ../..
 ##cloning the PET repository
 git clone git@github.com:Python-Ensemble-Toolbox/PET.git PET
+
 ##create a PET virtual enviornmnet in venv-PET folder
 python3 -m venv venv-PET
 ##acrivate the envirnment
@@ -19,3 +20,11 @@ python3 setup.py bdist_wheel
 ##install PET in the newly created enviornment ("PET" is the relative path to the PET folder)
 python3 -m pip install -e PET
 
+##cloning NonstationaryGAN
+git clone git@github.com:ai4netzero/NonstationaryGANs.git
+
+##installing packages for NonstationaryGAN
+pip install torch
+
+##installing MPSlib package
+pip install scikit-mps
