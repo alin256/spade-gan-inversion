@@ -28,6 +28,8 @@ Kristian Fossum, Alyaev, Sergey, and Ahmed H. Elsheikh. **"Ensemble history-matc
 
 # Installation
 
+The bash script files to install individual components are located in the **Dependences** folder. Alternatively, follow instructions from the library providers below.
+
 ## OPM-flow
 The OPM-flow simulator can be installed by following the instructions at https://opm-project.org/?page_id=245
 
