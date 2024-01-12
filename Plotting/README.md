@@ -1,17 +1,15 @@
-## SoftData Case 1
+## Plotting script
 
-To run the soft data case 1, one must do the following:
-1. Generate the data by running building and running the data-generating model inside the data folder. This is achieved
-by running the following command in the data folder:
+To plot results from an example folder run **plotting.py** with a folder path as the only parameter. The script assumes that the results are already computed (see folders **HardData**, **SoftData1**, **SoftData2** for instructions).
+
+
+Usage examples
 ```
-python setup.py
-```
-2. Copy the posterior estimate from the HardData run into this folder and rename to prior.npz. In the terminal run:
-```
-cp ../HardData/posterior_state_estimate.npz prior.npz
-```
-3. Run the inversion by running the following command:
-```
-python run_script.py
+python plotting.py ../HardData
 ```
 
+```
+python plotting.py ../SoftData2
+```
+
+The results are saved in the example folder **"/result.png"**

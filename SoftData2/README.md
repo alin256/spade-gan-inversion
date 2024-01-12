@@ -16,3 +16,8 @@ python run_script.py
 ```
 
 
+4. To plot the results, run
+
+```
+python ../Plotting/plotting.py ../SoftData2
+```
