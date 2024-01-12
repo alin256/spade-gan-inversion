@@ -22,6 +22,14 @@ Kristian Fossum, Alyaev, Sergey, and Ahmed H. Elsheikh. **"Ensemble history-matc
 }
 ```
 
+## Preview of results
+
+The figure below shows data assimilation results for **Soft data - case 2** with the hard-data-constrained prior as the starting point.
+
+![Data assimilation results for Soft data - case 2](Reference/SoftData2.png)
+
+Note that the paper uses more complex plotting based on ResInsight. We do not include it in the repository due to setup complexity. 
+
 ## Installation
 
 ### Prerequisites
@@ -60,4 +68,14 @@ pip install scikit-mps
 The MPSlib-produced files to reproduce the publication are included in this repository. 
 
 ## Running examples from the First Break paper
+
+The paper and this repository include three numerical examples. The **SoftData** examples rely on the results of the **HardData** example results. Run **HardData** first.
+
+To run examples go to a relevant folder and follow the instructions. The example folders are
+
+  0. HardData
+  1. SoftData1
+  2. SoftData2
+
+
 
