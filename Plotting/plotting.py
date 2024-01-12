@@ -64,19 +64,24 @@ if len(arguments) > 1:
 else:
     print('No arguments provided, falling back to plotting from folder \"{}\"'.format(folder))
 
+
+
 # prior
 print('[2/5] Preparing the prior...')
-ms_prior = np.load('../HardData/prior.npz', allow_pickle=True)['m']
+ms_prior = np.load('{}/prior.npz'.format(folder), allow_pickle=True)['m']
 channel_prob_prior = get_channel_probability_from_coarse_inputs(ms_prior)
 
 # synthetic truth
-print('[3/5] Preparing the synthetic truth...')
-has_truth = False
-
+print('[3/5] Looking for the synthetic truth...')
+try:
+    true_model = np.load('{}/data/true_model.npz'.format(folder), allow_pickle=True)['true']
+    has_truth = True
+except:
+    has_truth = False
 
 # posterior
 print('[4/5] Preparing the posterior...')
-ms_posterior = np.load('../HardData/posterior_state_estimate.npz', allow_pickle=True)['m']
+ms_posterior = np.load('{}/posterior_state_estimate.npz'.format(folder), allow_pickle=True)['m']
 channel_prob_posterior = get_channel_probability_from_coarse_inputs(ms_posterior)
 
 # plotting
@@ -84,19 +89,34 @@ print('[5/5] Plotting and saving...')
 
 if has_truth:
     fig, (sub_prior, sub_truth, sub_post) = plt.subplots(ncols=3,  
-                                                         width_ratios=[3, 3, 4], 
-                                                         figsize=(10, 4), sharey='all')
+                                                         width_ratios=[4, 4, 4], 
+                                                         figsize=(12, 4), 
+                                                         sharey='all',
+                                                         constrained_layout=True)
 else:
     fig, (sub_prior, sub_post) = plt.subplots(ncols=2,  
-                                              width_ratios=[3, 4], 
-                                              figsize=(7, 3), sharey='all')
+                                              width_ratios=[4, 4], 
+                                              figsize=(8, 4), 
+                                              sharey='all',
+                                              constrained_layout=True)
     #subplots[1].plot([1,2],[1,1])
     # subplots[1].text(0.5, 0.5, "Hard data", size=18, ha="center")
 
 # plotting the channel probabilities
-im1 = sub_prior.matshow(channel_prob_prior, cmap='tab20b', vmin=0, vmax=1, aspect='auto',
-                        origin='lower')
-sub_post.matshow(channel_prob_posterior, cmap='tab20b', vmin=0, vmax=1, aspect='auto')
+im1 = sub_prior.matshow(channel_prob_prior, cmap='tab20b', vmin=0, vmax=1, aspect='auto', origin='lower')
+sub_prior.set_title('Prior probability of channel')
+
+if has_truth:
+    sub_truth.matshow(true_model, cmap='tab20b', vmin=0, vmax=1, aspect='auto', origin='lower')
+    sub_truth.set_title('Data-generating model')
+
+sub_post.matshow(channel_prob_posterior, cmap='tab20b', vmin=0, vmax=1, aspect='auto', origin='lower')
+sub_post.set_title('Posterior probability of channel')
+
 fig.colorbar(mappable=im1, ax=sub_post)
 
-fig.savefig('default.png', bbox_inches='tight', dpi=600)
+title_string = folder.split('/')[-1]
+fig.suptitle('Data assimilation results for {}'.format(title_string), fontweight='bold')
+
+# , bbox_inches='tight'
+fig.savefig('{}/result.png'.format(folder), dpi=600)
