@@ -50,3 +50,6 @@ If you want to use the MPSlib package for generating new synthetic true fields, 
 instructions at https://github.com/ergosimulation/mpslib
 
 The MPSlib-produced files to reproduce the publication are included in this repository. 
+
+## Running examples from the First Break paper
+
