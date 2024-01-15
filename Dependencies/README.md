@@ -4,19 +4,19 @@ Run them in ascending order, or use the instructions within them to install them
 
 To run a script do the following from the **Dependencies** folder:
 
-## OPM installation script
+### OPM installation script
 ```
 chmod +x install-1-opm.sh
 ./install-1-opm.sh
 ```
 
-## PET installation script
+### PET installation script
 ```
 chmod +x install-2-pet.sh
 ./install-2-pet.sh
 ```
 
-## NonstationaryGANs installation script
+### NonstationaryGANs installation script
 ```
 chmod +x install-3-nonstationary-gan.sh
 ./install-3-nonstationary-gan.sh
