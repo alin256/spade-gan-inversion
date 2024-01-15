@@ -26,7 +26,7 @@ Kristian Fossum, Alyaev, Sergey, and Ahmed H. Elsheikh. **"Ensemble history-matc
 
 ### Prerequisites
 - Ubuntu 20.04
-- Python 3.8.10
+- Python 3.8+ (tested on 3.8.10)
 
 ### Pre-configured scripts
 The bash script files to install individual components are located in the **Dependences** folder. Alternatively, follow instructions from the library providers below.
