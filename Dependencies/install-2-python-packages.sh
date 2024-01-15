@@ -24,3 +24,4 @@ python3 -m pip install -e PET
 git clone git@github.com:ai4netzero/NonstationaryGANs.git
 
 ##installing packages for NonstationaryGAN
+pip install torch
