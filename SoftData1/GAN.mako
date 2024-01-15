@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import norm
 import torch
 import sys
-sys.path.append('/home/AD.NORCERESEARCH.NO/krfo/OneDrive/DISTINGUISH/easy_paper/NonstationaryGANs/')
+sys.path.append('../../NonstationaryGANs/')
 from models import generators
 
 # load model achitectures
@@ -20,7 +20,7 @@ netG = generators.Res_Generator(z_dim = 128, n_classes = 4,base_ch = 52
 
 # load checkpoint for artificial dataset (provided by TotalEnergies)
 
-checkpoint = torch.load('/home/AD.NORCERESEARCH.NO/krfo/OneDrive/DISTINGUISH/easy_paper/NonstationaryGANs/trained_models/AR_model.pth',map_location=device)
+checkpoint = torch.load('../../NonstationaryGANs/trained_models/AR_model.pth',map_location=device)
 _ = netG.load_state_dict(checkpoint['netG_state_dict'])
 _=netG.eval()
 
