@@ -22,8 +22,6 @@ Kristian Fossum, Alyaev, Sergey, and Ahmed H. Elsheikh. **"Ensemble history-matc
 }
 ```
 
-
-
 ## Installation
 
 ### Prerequisites
@@ -45,7 +43,8 @@ We recommend creating a virtual environment where all needed packages will be in
 #### Generation of Nonstationary geological fields using GANs
 The GANs package is cloned from the repository https://github.com/ai4netzero/NonstationaryGANs
 
-Note that you need to install all required packages in the Python environment used to run the tests.
+Note that you need to **pip install** all required packages in the Python environment used to run the tests:
+* torch
 
 **GAN.mako** files in sub-directories assume that the **NonstationaryGANs** repository is cloned in the same directory as **spade-gan-inversion**
 
