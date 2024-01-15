@@ -39,6 +39,8 @@ The PET package can be installed by following the instructions at https://github
 ## Generation of Nonstationary geological fields using GANs
 The GANs package is cloned from the repository https://github.com/ai4netzero/NonstationaryGANs
 
+**GAN.mako** files in sub-directories assume that the **NonstationaryGANs** repository is cloned in the same directory as **spade-gan-inversion**
+
 ## MPSlib (Optional)
 If you want to use the MPSlib package for generating new syntetic true fields, you can install it by following the 
 instructions at https://github.com/ergosimulation/mpslib
