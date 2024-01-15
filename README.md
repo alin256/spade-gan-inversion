@@ -40,8 +40,12 @@ The OPM-flow simulator can be installed by following the instructions at https:/
 #### Python-Ensemble-Toolbox (PET)
 The PET package can be installed by following the instructions at https://github.com/Python-Ensemble-Toolbox/PET/tree/main
 
+We recommend creating a virtual environment where all needed packages will be installed.  
+
 #### Generation of Nonstationary geological fields using GANs
 The GANs package is cloned from the repository https://github.com/ai4netzero/NonstationaryGANs
+
+Note that you need to install all required packages in the Python environment used to run the tests.
 
 **GAN.mako** files in sub-directories assume that the **NonstationaryGANs** repository is cloned in the same directory as **spade-gan-inversion**
 
