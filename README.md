@@ -42,5 +42,7 @@ The GANs package is cloned from the repository https://github.com/ai4netzero/Non
 **GAN.mako** files in sub-directories assume that the **NonstationaryGANs** repository is cloned in the same directory as **spade-gan-inversion**
 
 ## MPSlib (Optional)
-If you want to use the MPSlib package for generating new syntetic true fields, you can install it by following the 
+If you want to use the MPSlib package for generating new synthetic true fields, you can install it by following the 
 instructions at https://github.com/ergosimulation/mpslib
+
+The MPSlib-produced files to reproduce the publication are included in this repository. 
