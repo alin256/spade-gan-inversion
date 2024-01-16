@@ -25,3 +25,6 @@ git clone git@github.com:ai4netzero/NonstationaryGANs.git
 
 ##installing packages for NonstationaryGAN
 pip install torch
+
+##installing MPSlib package
+pip install scikit-mps
