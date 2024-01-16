@@ -12,7 +12,7 @@ chmod +x install-1-opm.sh
 ./install-1-opm.sh
 ```
 
-### Python installation scripts including PET and NonstationaryGANs
+### Python installation scripts including PET, NonstationaryGANs, and MPSlib
 ```
 chmod +x install-2-python-packages.sh
 ./install-2-python-packages.sh
