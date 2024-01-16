@@ -47,9 +47,15 @@ Note that you need to **pip install torch**in the Python environment used to run
 
 **GAN.mako** files in sub-directories assume that the **NonstationaryGANs** repository is cloned in the same directory as **spade-gan-inversion**
 
-#### 4. MPSlib (Optional)
-If you want to use the MPSlib package for generating new synthetic true fields, you can install it by following the 
+#### 4. MPSlib
+MPSlib package for generating new synthetic true fields can be installed it by following the 
 instructions at https://github.com/ergosimulation/mpslib
+
+The **pip** package is available:
+
+```
+pip install scikit-mps
+```
 
 The MPSlib-produced files to reproduce the publication are included in this repository. 
 
