@@ -8,7 +8,7 @@ python setup.py
 ```
 2. Copy the posterior estimate from the HardData run into this folder and rename to prior.npz. In the terminal run:
 ```
-cp ../HardData/posterior_state_estimae.npz prior.npz
+cp ../HardData/posterior_state_estimate.npz prior.npz
 ```
 3. Run the inversion by running the following command:
 ```
