@@ -28,6 +28,8 @@ The figure below shows data assimilation results for **Soft data - case 2** with
 
 ![Data assimilation results for Soft data - case 2](Reference/SoftData2.png)
 
+Note that the paper uses more complex plotting based on ResInsight. We do not include it in the repository due to setup complexity. 
+
 ## Installation
 
 ### Prerequisites
