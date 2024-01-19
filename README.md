@@ -22,6 +22,12 @@ Kristian Fossum, Alyaev, Sergey, and Ahmed H. Elsheikh. **"Ensemble history-matc
 }
 ```
 
+## Preview of results
+
+The figure below shows data assimilation results for **Soft data - case 2** with the hard-data-constrained prior as the starting point.
+
+![Data assimilation results for Soft data - case 2](Reference/SoftData2.png)
+
 ## Installation
 
 ### Prerequisites
