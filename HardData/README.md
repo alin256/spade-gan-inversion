@@ -12,3 +12,9 @@ source ../../venv-PET/bin/activate
 ```
 python run_script.py
 ```
+
+3. To plot the results, run
+
+```
+python ../Plotting/plotting.py ../HardData
+```
