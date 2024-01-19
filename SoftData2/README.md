@@ -1,6 +1,14 @@
 ## SoftData Case 2
 
-To run the soft data case 2, one must do the following:
+To run the complete example, you can use a full script that combines the steps below
+
+```
+chmod +x run-example.sh
+./run-example.sh
+```
+
+### Steps in the example script
+
 1. Generate the data by running building and running the data-generating model inside the data folder. This is achieved
 by running the following command in the data folder:
 ```
