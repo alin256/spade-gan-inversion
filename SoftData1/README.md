@@ -15,3 +15,8 @@ cp ../HardData/posterior_state_estimate.npz prior.npz
 python run_script.py
 ```
 
+4. To plot the results, run
+
+```
+python ../Plotting/plotting.py ../SoftData1
+```
