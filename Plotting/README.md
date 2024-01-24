@@ -12,4 +12,4 @@ python plotting.py ../HardData
 python plotting.py ../SoftData2
 ```
 
-The results are saved in the example folder **"/result.png"**
+The results are saved in **{the chosen example folder}/result.png"**
