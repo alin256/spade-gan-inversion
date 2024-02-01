@@ -4,21 +4,21 @@ This is the code to reproduce the results of the paper **Ensemble history-matchi
 
 ## Cite as:
 
-Kristian Fossum, Alyaev, Sergey, and Ahmed H. Elsheikh. **"Ensemble history-matching workflow using interpretable SPADE-GAN geomodel."** First Break ??, no. 2 (2024): ??-?? https://???.
+Kristian Fossum, Alyaev, Sergey, and Ahmed H. Elsheikh. **"Ensemble history-matching workflow using interpretable SPADE-GAN geomodel."** *First Break*, Vol. 42, Issue 2, Feb. 2024: 57 - 63 https://doi.org/10.3997/1365-2397.fb2024014.
 
 ### Latex
 
 ```
-@article{alyaev2021probabilistic,
+@article{fossum2024ensemble,
   title={Ensemble history-matching workflow using interpretable SPADE-GAN geomodel},
   author={Fossum, Kristian and Alyaev, Sergey and Elsheikh, Ahmed H},
   journal={First Break},
-  volume={??},
+  volume={42},
   number={2},
-  pages={??--??},
+  pages={57--63},
   year={2024},
   publisher={European Association of Geoscientists \& Engineers},
-  doi={???}
+  doi={https://doi.org/10.3997/1365-2397.fb2024014}
 }
 ```
 
