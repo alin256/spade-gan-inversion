@@ -1,6 +1,6 @@
 # Ensemble history-matching with SPADE-GAN geomodel
 
-This is the code to reproduce the results of the paper **Ensemble history-matching workflow using interpretable SPADE-GAN geomodel** by Kristian Fossum, Sergey Alyaev, and Ahmed H. Elsheikh, published in First Break 2024.02.
+This is the code to reproduce the results of the paper **Ensemble history-matching workflow using interpretable SPADE-GAN geomodel** by Kristian Fossum, Sergey Alyaev, and Ahmed H. Elsheikh, published in [First Break 2024](https://doi.org/10.3997/1365-2397.fb2024014).
 
 ## Cite as:
 
